@@ -1,13 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Oswald', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo2 {
+  height: 8%;
+  width: 8%;
+  padding-top: 20px;
+  padding-left: 20px;
+  pointer-events: none;
+}
+
+.nav{
+  background-color: black !important;
+}
+
+.navlinks{
+  text-align: right;
+  position:relative;
+  top: -75px;
+  color: white;
+
+
+}
+
+.about{
+  padding: 10px !important;
+}
+
+.testing12{
+  color: white !important;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-right: 25px;
+  font-size: 24px;
+  font: 'Oswald';
+}
+
+a:hover {
+  color: #b31e1e;
+}
+
+.btn-outline {
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+  padding-top: 2px !important;
+  padding-bottom: 2px !important;
+}
+.btn-outline:hover,
+.btn-outline:active,
+.btn-outline:focus,
+.btn-outline.active {
+  border-color: white;
+  
 }

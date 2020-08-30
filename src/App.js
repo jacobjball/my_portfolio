@@ -1,27 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Container } from 'react-bootstrap';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Nav from './components/Shared/Navbar';
+import Home from './components/Shared/Home';
+import About from './components/Shared/About';
+import Experience from './components/Shared/Experience';
+import Work from './components/Shared/Work';
+import Contact from './components/Shared/Contact'
 
-class App exends React.Component {
-  super(props);
-  this.state= {
-    title: 'Jake Ball'
-    headerLinks: [
-      { title: 'Home', path: '/'},
-      { title: 'About', path: '/about'},
-      { title: 'Contact', path: '/contact'}
-    ],
-    home: {
-      
-    }
-  }
+const App = () => (
+  <>
+    <Router>
+    <Nav/>
+  
+      <Container>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/experience" component={Experience} />
+          <Route exact path="/work" component={Work} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+      </Container>  
+    </Router>
+  </>
+)
 
-  render() {
-    return(
-      <div> Hello from React </div>
-    )
-  }
-}
 
 
 export default App;
