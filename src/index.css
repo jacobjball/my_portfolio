@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@1,300&display=swap');
 
 
 body {
@@ -40,12 +41,55 @@ code {
 }
 
 .testing12{
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
   color: white !important;
+  padding: 30px;
+  font-size: 36px;
 }
 .endorsements {
   color: white !important;
+  overflow: auto;
 }
 
+.quote1 {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 18px;
+  font-family: 'Work Sans';
+}
+
+.quote2 {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 18px;
+  font-family: 'Work Sans';
+}
+
+.quote3 {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  font-size: 18px;
+  font-family: 'Work Sans';
+}
+
+.home-text{
+  color: white !important;
+ 
+}
+
+.jacoboutline {
+  width: 100%;
+  height: 100%;
+}
+
+.homecontent {
+  display: flex;
+}
 a {
   color: white;
   text-decoration: none;
