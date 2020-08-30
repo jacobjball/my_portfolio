@@ -14,7 +14,7 @@ class Nav extends Component {
             <img class='logo2' src={Logo_5}/>
           </a>
           <div class='navlinks'>
-          <Navbar.Brand class='about' href="about">
+          {/* <Navbar.Brand class='about' href="about">
             About
           </Navbar.Brand>
           <Navbar.Brand href="experience">
@@ -25,7 +25,7 @@ class Nav extends Component {
           </Navbar.Brand>
           <Navbar.Brand href="contact">
             Contact
-          </Navbar.Brand>
+          </Navbar.Brand> */}
           <a href= {resume} class="btn btn-outline" target='_blank'>Resume</a>
           </div>
         </Navbar>
