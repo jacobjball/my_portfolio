@@ -12,7 +12,6 @@ const App = () => (
   <>
     <Router>
     <Nav/>
-  
       <Container>
         <Switch>
           <Route exact path="/" component={Home} />
