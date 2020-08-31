@@ -5,7 +5,7 @@ import '../../index.css'
 const Home = () => (
   <>
     <div class='home-text'>
-      <div class='testing12'> 
+      <div class='headertext'> 
           Hi, I'm Jake Ball. 
         <br/>
           I am software engineer that believes hard-work, grit, and consistency bring results. 

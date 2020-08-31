@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Nav from './components/Shared/Navbar';
+import CustomNavbar from './components/Shared/Navbar';
 import Home from './components/Shared/Home';
 import About from './components/Shared/About';
 import Experience from './components/Shared/Experience';
@@ -11,7 +11,7 @@ import Contact from './components/Shared/Contact'
 const App = () => (
   <>
     <Router>
-    <Nav/>
+    <CustomNavbar/>
       <Container>
         <Switch>
           <Route exact path="/" component={Home} />

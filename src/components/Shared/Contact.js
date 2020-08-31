@@ -3,7 +3,7 @@ import '../../index.css'
 
 const Contact = () => (
   <>
-    <div class='testing12'> Contact </div>
+    <div class='headertext'> Contact </div>
   </>
 )
 

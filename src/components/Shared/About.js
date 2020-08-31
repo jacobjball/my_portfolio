@@ -3,7 +3,7 @@ import '../../index.css'
 
 const About = () => (
   <>
-    <div class='testing12'> About </div>
+    <div class='headertext'> About </div>
   </>
 )
 

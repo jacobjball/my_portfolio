@@ -3,7 +3,7 @@ import '../../index.css'
 
 const Experience = () => (
   <>
-    <div class='testing12'> Experience </div>
+    <div class='headertext'> Experience </div>
   </>
 )
 
