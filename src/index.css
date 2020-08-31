@@ -8,6 +8,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: black;
+  position: absolute;
+  overflow: hidden;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
 }
 
 code {
@@ -20,11 +25,16 @@ code {
   width: 8%;
   padding-top: 20px;
   padding-left: 20px;
-  pointer-events: none;
+  position:relative;
+  max-width: 100%;
+  max-height: 100%;
+
+
 }
 
 .nav{
   background-color: black !important;
+  display: flex;
 }
 
 
@@ -51,7 +61,9 @@ code {
 }
 .endorsements {
   color: white !important;
-  overflow: auto;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .quote1 {
@@ -60,6 +72,7 @@ code {
   align-items: center !important;
   font-size: 18px;
   font-family: 'Work Sans';
+  padding: 50px;
 }
 
 .quote2 {
@@ -67,6 +80,7 @@ code {
   justify-content: center !important;
   align-items: center !important;
   font-size: 18px;
+  padding: 50px;
   font-family: 'Work Sans';
 }
 
@@ -75,17 +89,19 @@ code {
   justify-content: center !important;
   align-items: center !important;
   font-size: 18px;
+  padding: 50px;
   font-family: 'Work Sans';
 }
 
 .home-text{
   color: white !important;
- 
+  
 }
 
 .jacoboutline {
-  max-width: 100%;
+  
   position: relative;
+  bottom: 0;
 }
 
 .homecontent {
