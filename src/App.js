@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Container } from 'react-bootstrap';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import CustomNavbar from './components/Shared/Navbar';
@@ -7,6 +7,9 @@ import About from './components/Shared/About';
 import Experience from './components/Shared/Experience';
 import Work from './components/Shared/Work';
 import Contact from './components/Shared/Contact'
+import './index.css'
+import './App.scss'
+
 
 const App = () => (
   <>

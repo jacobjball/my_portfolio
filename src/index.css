@@ -15,7 +15,7 @@ code {
     monospace;
 }
 
-.logo2 {
+/* .logo2 {
   height: 8%;
   width: 8%;
   padding-top: 20px;
@@ -25,20 +25,21 @@ code {
   max-height: 100%;
 
 
-}
+} */
 
 .nav{
   background-color: black !important;
-  display: flex;
+  display: inline-block;
+  
 }
 
 
 .navlinks{
   text-align: right;
-  position:relative;
-  top: -75px;
+ 
+
   color: white;
-  margin-right: 30px;
+
 
 }
 
@@ -61,31 +62,13 @@ code {
 
 }
 
-.quote1 {
+.quotes {
   display: flex;
   justify-content: center !important;
   align-items: center !important;
   font-size: 18px;
   font-family: 'Work Sans';
   padding: 50px;
-}
-
-.quote2 {
-  display: flex;
-  justify-content: center !important;
-  align-items: center !important;
-  font-size: 18px;
-  padding: 50px;
-  font-family: 'Work Sans';
-}
-
-.quote3 {
-  display: flex;
-  justify-content: center !important;
-  align-items: center !important;
-  font-size: 18px;
-  padding: 50px;
-  font-family: 'Work Sans';
 }
 
 .home-text{
@@ -129,4 +112,9 @@ a:hover {
 .btn-outline.active {
   border-color: white;
   
+}
+
+.main {
+  display:flex;
+  flex-wrap: wrap;
 }
